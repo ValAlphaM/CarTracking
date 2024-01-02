@@ -9,8 +9,8 @@ Ce projet vise à développer un système de suivi de voitures en utilisant des 
 
 ## Installation
 
-1. Clonez ce dépôt : `git clone https://github.com/votre-utilisateur/Car_Tracking.git`
-2. Accédez au répertoire du projet : `cd Car_Tracking`
+1. Clonez ce dépôt : `git clone https://github.com/ValAlphaM/CarTracking.git`
+2. Accédez au répertoire du projet : `cd CarTracking`
 3. Créez un répertoire de build : `mkdir build && cd build`
 4. Générez les fichiers de configuration avec CMake : `cmake ..`
 5. Compilez le projet : `make`
