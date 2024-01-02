@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 project(CarTracking)
 
 set(CMAKE_CXX_STANDARD 17)
+# Pour passer en mode debug, décommentez la ligne suivante
 #add_definitions(-DDEBUG)
 
 find_package(OpenCV REQUIRED)

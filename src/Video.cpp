@@ -52,7 +52,9 @@ void Video::ExtractCorrelationVideo ( string outputDirectory, int fps ) const
     // paramètres de la vidéo
     int videoWidth = listImage[0] -> getImageMat ( ).cols;
     int videoHeight = listImage[0] -> getImageMat ( ).rows;
-    cout << videoWidth << "x" << videoHeight << endl;
+    #ifdef DEBUG
+        cout << videoWidth << "x" << videoHeight << endl;
+    #endif
     
     if ( outputDirectory == "" )
     {
