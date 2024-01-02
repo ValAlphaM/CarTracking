@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+build/
+
+# Compiler output
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dll
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
